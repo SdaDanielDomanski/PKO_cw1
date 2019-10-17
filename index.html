@@ -39,6 +39,13 @@
             height: 300px;
             /* only for demonstration, should be removed */
         }
+
+        /* Clear floats after the columns */
+        section:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
     </style>
 </head>
 
